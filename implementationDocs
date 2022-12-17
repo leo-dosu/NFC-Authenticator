@@ -1,0 +1,23 @@
+-> implementation work-flow 
+using python programming language
+using Visual studio code ide
+using Firefox/chrome webdriver
+using the MVC model  
+using the selenium package (web crawler )
+using flask framework for the API implementation
+
+-> website analysis for page exception control 
+result A = https://pagespeed.web.dev/report?url=https%3A%2F%2Fportal.yabatech.edu.ng%2Fportalplus%2F
+
+result B = https://gtmetrix.com/reports/portal.yabatech.edu.ng/UvMGujrw/
+
+Syste Requirement:
+	OS: 
+		linux
+		Windows 
+		Mac OS 
+
+Least 4GB RAM
+80 GB HardDrive/SSD
+
+

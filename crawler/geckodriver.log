@@ -1,0 +1,131 @@
+1671123897368	geckodriver	INFO	Listening on 127.0.0.1:36027
+1671123897399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAYDvKn"
+1671123897813	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAYDvKn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34685/devtools/browser/79912c44-ff6f-4188-ae08-d13c191a4caf
+1671123899813	Marionette	INFO	Listening on port 41837
+1671123899933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671124056322	geckodriver	INFO	Listening on 127.0.0.1:47551
+1671124056376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileklMHbf"
+1671124056867	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileklMHbf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51971/devtools/browser/84da3a67-2d67-4fc2-ba64-7b6b4403e321
+1671124059370	Marionette	INFO	Listening on port 37457
+1671124059427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://imasdk.googleapis.com/formats/outstream/versioned/prod2/outstream_web_client_20221114_RC00/outstream.min.js, line 644: Error: lima_error_fetching_ad: Request timed out
+JavaScript error: https://100f0b1c1ee475ee1a1d34bd3abfbcb9.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://100f0b1c1ee475ee1a1d34bd3abfbcb9.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://100f0b1c1ee475ee1a1d34bd3abfbcb9.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://d1e383a53082ebfc9241b38bcafc79f8.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 19: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+1671154525097	Marionette	INFO	Stopped listening on port 41837
+1671154525099	Marionette	INFO	Stopped listening on port 37457
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileAYDvKn/protections.sqlite
+[Parent 10529, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1671154526819	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1671154527997	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
