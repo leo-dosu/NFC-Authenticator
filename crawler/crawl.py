@@ -5,7 +5,6 @@ import random
 
 #framework packages
 from flask import Flask, request, json, jsonify
-from crypt import methods
 from pickle import GET
 from urllib import  response
 
@@ -23,7 +22,9 @@ import requests
 #selenium packages
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.expected_conditions import presence_of_element_located
 from selenium.webdriver.common.keys import Keys
@@ -50,11 +51,13 @@ def loadDriverDelay():
 
 #driver 
 def loadDriver():
-    option = webdriver.FirefoxOptions()
     # option.headless = True
-    # option.add_argument('--no-sandbox')
-    # option.add_argument('--disable-dev-shm-usage')
-    driver = webdriver.Firefox(options=option)
+    option = webdriver.ChromeOptions()        
+    
+    # option.add_argument(f'user-agent={ua}')
+    option.add_argument('--disable-notifications')
+    option.add_argument("--start-minimized")
+    driver =  webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=option)
     return driver
     
 
@@ -77,7 +80,7 @@ def scroll_click_element(driver, xpath):
     time.sleep(0.4)
 
 # login student in 
-def login(driver: any, matric: string, password: Any, ):
+def login(driver: Any, matric: str, password: Any ):
     driver.find_element(By.NAME, "matric_number").send_keys(matric) 
     driver.find_element(By.NAME, "password").send_keys(password)
     driver. find_element(By.ID, 'login').click()

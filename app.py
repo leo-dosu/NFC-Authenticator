@@ -3,7 +3,6 @@ from itertools import count
 from pickle import GET
 import re
 import requests
-import resource
 from unicodedata import name
 from urllib import  response
 from webbrowser import get
@@ -11,7 +10,7 @@ from wsgiref import validate
 
 #framework packages
 from flask import Flask, request, json, jsonify
-from crypt import methods
+
 
 #custom packages
 from crawler import crawl
@@ -32,7 +31,7 @@ app = Flask(__name__)
 @app.route('/validate', methods = ['GET', 'POST'])
 def job():
     driver = crawl.loadDriver()
-    student_data = []
+    sD = [] #stores student data. 
     driver.get(const.url)
     network_check = crawl.is_cnx_active
     if network_check == False:
@@ -45,22 +44,20 @@ def job():
         crawl.loadWebPageDelay()
 
         data = requests.get(driver.current_url)
-        student_data = driver.find_elements(By.XPATH, "//table[@class='table table-responsive']//tbody//tr[1]")
-        (student_data)
-        name = "Dosu Leo"
-        matricNumber = "F/HD/20/3210115"
+        table = driver.find_elements(By.XPATH, "//table[@class='table table-responsive']//tbody")
         # soup = BeautifulSoup(data.text, 'html.parser')
-
         # tabs = soup.find("table")
-        # return dict(tabs)
+        # print(tabs)
         # Collecting Ddata
-        # for row in tabs.tbody.find_all('tr'):    
-        #     columns = row.find_all('td')
-        #     print(columns)
+        for tr in driver.find_elements(By.XPATH, "//table[@class='table table-responsive']//tbody//tr"):
+            tdr = tr.find_elements(By.XPATH,'td')
+            tdh =  tr.find_elements(By.XPATH,'th')
+            sD.append([tr.text for td in tdh])
+        print (sD)
         response = jsonify(
         {'message' : 'web driver loaded'}, 
         { 'message':  check_page_loaded },
-        {'Student Data' : 'th'})
+        {'Student Data': 'sD' })
         response.status_code = 200
         return response
 
@@ -87,10 +84,7 @@ def checkAPI():
 
 
 
-# route to render the student Data
-@app.route('/s',  methods=[GET])
-def studentData():
-    pass
+
 
 #run app
 if __name__ == "__main__":
