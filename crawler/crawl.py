@@ -86,9 +86,20 @@ def login(driver: Any, matric: str, password: Any ):
     driver. find_element(By.ID, 'login').click()
     loadWebPageDelay()
 
-    # driver.get('https://portal.yabatech.edu.ng/portalplus/?pg=biodata')
-    
+#fetch user dat
+def fetchData(driver, xpath):
+    sD = [] #stores student data. 
+        # Collecting Ddata
+    for tr in driver.find_elements(By.XPATH, xpath):
+        tdh =  tr.find_elements(By.XPATH,'th')
+        sD.append([tr.text for td in tdh])
+    student_data = json.dumps(sD)
+    return student_data
 
+#fetch image
+def fetchImage(driver, xpath):
+        image = driver.find_element(By.XPATH, xpath)
+        return image.get_property('src')
 
 
 # get student data
